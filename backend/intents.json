@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello! How can I assist you today?", "Hey there! Need any medical advice?", "Hi! What health-related query do you have?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "see ya"],
+      "responses": ["Take care! Stay healthy!", "Goodbye! Let me know if you need any medical help."]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you?", "how's it going?", "how do you feel?"],
+      "responses": ["I'm just a bot, but I'm here to help you! How can I assist?", "I'm here to provide you with medical guidance! What do you need?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you?", "can you tell me your name?"],
+      "responses": ["You can call me MedBot, your virtual health assistant!", "I am MedBot, here to provide medical assistance."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you?", "what is your age?", "are you old?"],
+      "responses": ["I am a digital assistant, so I don't age! But I'm always updated with medical knowledge."]
+    },
+    {
+      "tag": "common_cold_symptoms",
+      "patterns": ["I have a runny nose", "sore throat", "cough", "congestion", "sneezing", "low-grade fever"],
+      "responses": ["It sounds like you might have a common cold. Stay hydrated and rest well!"]
+    },
+    {
+      "tag": "headache",
+      "patterns": ["I have headache", "I have a headache", "my head hurts", "how to cure a headache?"],
+      "responses": ["Headaches can be caused by stress, dehydration, or lack of sleep. Try drinking water and resting. If severe, consult a doctor."]
+    },
+    {
+      "tag": "fever_symptoms",
+      "patterns": ["I have chills", "sweating", "muscle aches", "loss of appetite", "general weakness"],
+      "responses": ["It looks like you may have a fever. Try drinking fluids and resting. If the fever persists, consult a doctor."]
+    },
+    {
+      "tag": "diabetes_symptoms",
+      "patterns": ["I have increased thirst", "frequent urination", "blurry vision", "extreme fatigue"],
+      "responses": ["These may be symptoms of diabetes. It's best to consult a doctor for proper diagnosis and treatment."]
+    },
+    {
+      "tag": "hypertension_symptoms",
+      "patterns": ["I feel dizzy", "I have high blood pressure", "I feel breathless"],
+      "responses": ["Hypertension is a serious condition. Reduce salt intake and monitor your blood pressure regularly."]
+    },
+    {
+      "tag": "covid_symptoms",
+      "patterns": ["I have cough and fever", "I lost my sense of taste", "I have difficulty breathing"],
+      "responses": ["These could be symptoms of COVID-19. Please isolate yourself and seek medical attention."]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": ["I got a cut", "I burned my hand", "How to treat a wound?"],
+      "responses": ["Clean the wound with antiseptic and cover it with a bandage. If severe, seek medical help."]
+    },
+    {
+      "tag": "heart_attack",
+      "patterns": ["I have chest pain", "I feel pressure in my chest", "I have pain in my left arm"],
+      "responses": ["These could be signs of a heart attack. Seek emergency medical help immediately!"]
+    },
+    {
+      "tag": "allergy_symptoms",
+      "patterns": ["I have a rash", "My eyes are watery", "I have difficulty breathing after eating something"],
+      "responses": ["This could be an allergic reaction. Take an antihistamine and consult a doctor if symptoms persist."]
+    },
+    {
+      "tag": "pregnancy_symptoms",
+      "patterns": ["I missed my period", "I feel nauseous", "I'm feeling tired all the time"],
+      "responses": ["These might be signs of pregnancy. Consider taking a test or consulting a doctor."]
+    },
+    {
+      "tag": "medication",
+      "patterns": ["Can I take ibuprofen with paracetamol?", "What medicine should I take for fever?"],
+      "responses": ["It's best to consult a doctor before taking any medication. However, paracetamol is commonly used for fever."]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I'm feeling anxious", "I'm stressed", "I feel depressed"],
+      "responses": ["Mental health is important. Consider talking to a counselor or practicing relaxation techniques."]
+    },
+    {
+      "tag": "diet_advice",
+      "patterns": ["What should I eat for a healthy diet?", "Give me a diet plan"]
+    , "responses": ["Eat a balanced diet rich in vegetables, lean protein, and whole grains. Drink plenty of water!"]
+    },
+    {
+      "tag": "exercise_advice",
+      "patterns": ["How much should I exercise daily?", "What workouts are good for weight loss?"]
+    , "responses": ["Aim for at least 30 minutes of moderate exercise daily. Cardio and strength training are great for fitness."]
+    },
+    {
+      "tag": "doctor_consultation",
+      "patterns": ["Where can I find a doctor?", "Can you suggest an online consultation?"],
+      "responses": ["You can consult a doctor online at platforms like 1mg, Tata Health, or Practo."]
+    }
+  ]
+}
